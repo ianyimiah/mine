@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+.big-padding {
+    padding: 120px 0;
+}
+
+.mid-padding {
+    padding: 100px 0;
+}
+
+.vertical-heading span {
+    display: table;
+    position: relative;
+    left: -73px;
+    top: 45px;
+    text-transform: uppercase;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    color: #ce2350;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    word-spacing: 8px;
+
+    @media screen and (max-width: 767px) {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+        display: block;
+        position: static;
+        margin-bottom: 15px;
+
+    }
+}
