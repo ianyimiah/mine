@@ -46,6 +46,12 @@
             },
             {
               "input": "node_modules/hammerjs/hammer.min.js"
+            },
+            {
+              "input": "node_modules/cus-scripts/jquery.min.js"
+            },
+            {
+              "input": "node_modules/cus-scripts/parallax.min.js"
             }
           ]
           },
