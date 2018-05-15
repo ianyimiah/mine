@@ -6,7 +6,7 @@
     "mdb-angular-free": {
       "root": "",
       "projectType": "application",
-      "prefix": "app",
+      "prefix": "caw",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -52,6 +52,9 @@
             },
             {
               "input": "node_modules/cus-scripts/parallax.min.js"
+            },
+            {
+              "input": "node_modules/cus-scripts/card-carousel.js"
             }
           ]
           },
